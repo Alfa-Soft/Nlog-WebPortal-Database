@@ -1,0 +1,170 @@
+/*NLog Layout */
+/* color schema 1: #50586C  & #DCE2F0 */
+
+
+/* Generell Tag Classes */
+select, 
+input, 
+button, 
+textarea	{ border: 1px solid;	border-color: #AAAAAA;}
+body		{ margin:0px; padding:0px; }
+table		{ border-spacing:0; border-collapse: collapse; }
+img			{ border: 0px; }
+
+a:link,
+a:active,
+a:visited,
+a.postlink   { color:#002C5B; background-color:transparent;font-weight:bold;text-decoration:none;}
+a:hover 	 { color:#002C5B; font-weight: bold;}
+a img		 { vertical-align:middle}
+
+
+
+/* Header, Footer, Menue1..2..3 */
+#MainMenuPanel        {background-color:#50586C; height:40px; padding-top:5px}
+#MainMenuPanel  table {border-collapse:collapse;}
+#MainMenuPanel .ui-button 		{background-color:#50586C ; color:#DCE2F0 ;  }
+#MainMenuPanel .ui-button:hover {background-color:#50586C ; color:black}
+
+#ProjectPanel       { background-color:#DCE2F0;  width:100%; overflow:hidden; padding: 10px 0px 0px 0px;}
+#ProjectPanel table { border-collapse:collapse;  color:#50586C}
+#ProjectPanel td    { padding-right:20px; align:left; text-align:left}
+#ProjectPanel img   { vertical-align:middle; }
+#ProjectPanel form  { display:inline; }
+
+
+#SearchPanel 			   { background-color:#DCE2F0; width:100%; padding: 10px 0px 10px 0px;}
+#SearchPanel table         { border-collapse:collapse; color:#50586C}
+#SearchPanel form          { display:inline; }
+#SearchPanel #txtSearch    { width:250px; height:18px}
+#SearchPanel #txtHighlight { width:250px; height:18px}
+#SearchPanel #buttonreset  { margin-left:10px;}
+#SearchPanel .ui-button    { font-size:1em}
+#openmenu_searches 		   { height:18px}
+.SearchFormControl 		   { width:20px; height:18px; cursor:pointer}
+.highlighted 			   { font-weight: bold;	color: #BB0000 }
+
+
+.mainheader	           {background-color:#F9F7F7;  }
+.mainheader	*          {color:#50586C }
+.mainheader img        {width: 250px; height:40px}
+.mainheader .cellmenu1 {text-align:right; background-color:#F9F9F9;}
+
+
+.mainfooter *          {color:#666666; background-color:white; }
+.mainfooter	           {margin-top:20px;}
+.mainfooter .line0     {color:#666666; background-color:white; }
+.mainfooter .line1     {color:#666666; background-color:white; }
+
+.title 				   {background-color:#2165B2; color: white;  vertical-align:middle; text-align:center; width:100%;	height:30px; }
+.title *        	   {font-size: 13px; }
+.titleSecond		   {background-color:#DCE2F0; color:#50586C; vertical-align:middle; text-align:center; font-weight:bold; }
+
+
+
+
+/* Table Event Log */
+#PagerTop							{position:absolute;width:100%;height:15px;margin-top:-15px;text-align:right}
+
+#fullcontenttable 					{FONT-WEIGHT:NORMAL !IMPORTANT;}
+#fullcontenttable .ui-button 		{font-size:1em !important;BACKGROUND:NONE !IMPORTANT; BACKGROUND-IMAGE:NONE !IMPORTANT; BORDER-STYLE:NONE; WHITE-SPACE:NORMAL !IMPORTANT; FONT-WEIGHT:NORMAL !IMPORTANT; TEXT-ALIGN:LEFT; }
+#fullcontenttable .ui-button-text	{PADDING:0PX !IMPORTANT;}
+#fullcontenttable *					{TEXT-INDENT:0PX !IMPORTANT;}
+#fullcontenttable a					{ font-weight:normal;}
+#fullcontenttable .cellmenu1 		{text-align:center !important;}
+
+BUTTON[ID*="SYSLOGSEVERITY"]				{color:white; TEXT-ALIGN:LEFT; }
+BUTTON[ID*="button_menu_NTEventLogType"]	{font-size:0.8em }
+BUTTON[ID*="button_menu_sourceproc"]		{font-size:0.8em }
+
+
+/* Table Event Details */
+#EventItemDetails .cellmenu1,
+#EventItemDetails .cellmenu1_naked {text-align:right}
+
+
+
+
+
+
+
+/* Table / Border Classes */
+.table_with_border			{ border-bottom:solid 1px gray; }
+.table_with_border_second	{ background-color:#white; border:1px solid; border-color: #CCCCCC #000000 #000000 #CCCCCC; }
+.table_with_border_light,
+.table_with_border_light TD	{border:1px solid #DCE2F0}
+
+.with_border				{padding-top:0px; text-indent:3px;}
+.with_border_alternate		{text-indent:3px;}
+.with_border_alternate td   {border:solid 1px #aaaaaa;}
+
+.imageborder  				{ border:1px solid; border-color: #44617D #203040 #203040 #44617D; }
+
+
+/* Cells for listening */
+.line0			{ background-color:white; }
+.line1			{ background-color:white; }
+.line2			{ background-color:#f3f3f3; }
+.line0:hover    { background-color:#DCE2F0 }
+.line1:hover    { }
+.line2:hover    { }
+
+
+
+.lineColouredWhite, .lineColouredWhite:hover, a.lineColouredWhite { color: #FFFFFF; }
+.lineColouredBlack, .lineColouredBlack:hover, a.lineColouredBlack { color: #000000; }
+
+
+
+
+/* TOP Menu Classes */
+.topmenu2,   .topmenu3	  { background-color:#7A92A6;}
+.topmenu2 a, .topmenu3 a  { color:#DCE2F0; }
+
+.topmenu1_link:hover, 
+.topmenu2_link:hover, 
+.topmenu3_link:hover	  {	color:#FFBB55 }
+
+
+
+
+
+/* Cell Columns */
+.cellmenu1, 
+.cellmenu1_naked  {color: #DCE2F0;text-align:left;background-color:#50586C;padding-right:3px;}
+
+.cellmenu2, 
+.cellmenu2_naked  {}
+.cellmenu2 td 	  {margin:10px;}
+
+A.cellmenu1_link:hover	{color:#FFBB55; text-decoration: none;}
+A.cellmenu1_link		{color: white;  text-decoration: underline;}
+
+
+
+/* Other Link Classes */
+
+a.contextlink:link,
+a.contextlink:active,
+a.contextlink:visited,
+a.contextlink			{ font-weight:bold; color:#E50A00; text-decoration:underline; background-color: transparent;}
+a.contextlink:hover		{ font-weight:bold; color:#923325; text-decoration:none; }
+
+
+
+
+/* Usefull Text Classes */
+.ErrorMsg 			{ font-weight: bold; COLOR: #FF0000; }
+
+.PriorityAlert		{ background-color: #dd00dd; }
+.PriorityCrit		{ background-color: #dd9900; }
+.PriorityError		{ background-color: #CC0000; }
+.PriorityWarning	{ background-color: #FFAA00; }
+.PriorityNotice		{ background-color: #66CC33; }
+.PriorityInfo		{ background-color: #ABF1FF; }
+.PriorityDebug		{ background-color: #3333ff; }
+
+.PriorityEmergency, .PriorityAlert, .PriorityCrit, .PriorityError, .PriorityWarning, .PriorityNotice, .PriorityInfo, .PriorityEmergency, 
+.PriorityDebug		{color: #FFFFFF; border-top: black 1px solid; border-bottom: black 1px solid; border-right: gray 1px solid; }
+
+

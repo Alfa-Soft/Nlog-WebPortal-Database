@@ -1,0 +1,16 @@
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\bin\Debug\NLogTargetTester.exe.config
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\bin\Debug\NLogTargetTester.exe
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\bin\Debug\NLogTargetTester.pdb
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\bin\Debug\NLog.dll
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\bin\Debug\NLog.xml
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\obj\Debug\NLogTargetTester.csprojAssemblyReference.cache
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\obj\Debug\NLogTargetTester.Form1.resources
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\obj\Debug\NLogTargetTester.Properties.Resources.resources
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\obj\Debug\NLogTargetTester.csproj.GenerateResource.cache
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\obj\Debug\NLogTargetTester.csproj.CoreCompileInputs.cache
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\obj\Debug\NLogTargetTester.csproj.CopyComplete
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\obj\Debug\NLogTargetTester.exe
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\obj\Debug\NLogTargetTester.pdb
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\bin\Debug\nlog.config
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\bin\Debug\NLog.Windows.Forms.dll
+P:\CSharp_Projekte\dotNet4.0\NLogTargetTester\NLogTargetTester\bin\Debug\NLog.Windows.Forms.xml

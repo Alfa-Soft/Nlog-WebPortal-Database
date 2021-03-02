@@ -1,0 +1,2 @@
+Author: Jürgen Weber: http://www.adiscon.com
+DisplayName: NLog
