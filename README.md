@@ -21,7 +21,7 @@ Login Pass: demo3
 
 <a href="http://nlogdemo.zytes.de/" target="_blank">Full install guide</a>  
 d
-[Full install guide and description](http://nlogdemo.zytes.de/ "Full install guide")
+[Full install guide and description](http://nlogdemo.zytes.de/ "Full install guide"){:target="_blank"}
 
 
 ## Filelist
