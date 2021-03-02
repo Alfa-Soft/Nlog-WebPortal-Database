@@ -2,16 +2,16 @@
 Many .net projects and many logfiles?
 This guide bring a few smart projects togehter.
 
-![](https://github.com/Alfa-Soft/Nlog-WebPortal/NLLogWSInfo.png)
+![](https://github.com/Alfa-Soft/Nlog-WebPortal/blob/main/NLLogWSInfo.png)
 
 
-##Demo
+## Demo
 [http://nlogdemo.zytes.de/LogAnalyzer/](http://nlogdemo.zytes.de/LogAnalyzer/ "http://nlogdemo.zytes.de/LogAnalyzer/")
 Login User: demo3
 Login Pass: demo3
 
 
-##Tools we need
+## Tools we need
 -  Webserver with PHP > 5 & MySQL to install the app
 -  Adiscon LogAnalyzer a Web Syslog and IT Event Viewer.
 *It is a php viewer application for event log databases like syslog-ng or windows events.>it is a php viewer application for event log databases like syslog-ng or windows events.*
