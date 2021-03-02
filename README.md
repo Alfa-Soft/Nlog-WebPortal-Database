@@ -19,10 +19,7 @@ Login Pass: demo3
 *The webservice works as NLog target, receives log-events, creates projects, fills MySQL database*
 - Your .net App with NLog
 
-<a href="http://nlogdemo.zytes.de/" target="_blank">Full install guide</a>  
-d
-[Full install guide and description](http://nlogdemo.zytes.de/ "Full install guide"){:target="_blank"}
-
+[Full install guide and description](http://nlogdemo.zytes.de/ "Full install guide")
 
 ## Filelist
 | | |
