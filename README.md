@@ -1,13 +1,13 @@
 # Nlog-WebPortal  | Gui & Database
-Many .net projects and many logfiles?
+Many .net projects and many logfiles?  
 This guide bring a few smart projects togehter.
 
 ![](https://github.com/Alfa-Soft/Nlog-WebPortal/blob/main/NLLogWSInfo.png)
 
 
 ## Demo
-[http://nlogdemo.zytes.de/LogAnalyzer/](http://nlogdemo.zytes.de/LogAnalyzer/ "http://nlogdemo.zytes.de/LogAnalyzer/")
-Login User: demo3
+[http://nlogdemo.zytes.de/LogAnalyzer/](http://nlogdemo.zytes.de/LogAnalyzer/ "http://nlogdemo.zytes.de/LogAnalyzer/")  
+Login User: demo3  
 Login Pass: demo3
 
 
