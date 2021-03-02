@@ -1,5 +1,6 @@
 # Nlog-WebPortal  | Gui & Database
 Many .net projects and many logfiles?
+
 This guide bring a few smart projects togehter.
 
 ![](https://github.com/Alfa-Soft/Nlog-WebPortal/blob/main/NLLogWSInfo.png)
@@ -7,7 +8,9 @@ This guide bring a few smart projects togehter.
 
 ## Demo
 [http://nlogdemo.zytes.de/LogAnalyzer/](http://nlogdemo.zytes.de/LogAnalyzer/ "http://nlogdemo.zytes.de/LogAnalyzer/")
+
 Login User: demo3
+
 Login Pass: demo3
 
 
@@ -22,7 +25,7 @@ Login Pass: demo3
 [Full install guide and description](http://nlogdemo.zytes.de/ "Full install guide")
 
 
-##Filelist
+## Filelist
 | | |
 | - | - |
 |  NLogWebservice |  PHP App) |
