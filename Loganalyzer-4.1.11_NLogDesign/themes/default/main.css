@@ -89,6 +89,9 @@ BUTTON[ID*="button_menu_sourceproc"]		{font-size:0.8em }
 
 
 /* Table / Border Classes */
+.selectedRow   { background: lightBlue }
+.unselectedRow { background: white }
+
 .table_with_border			{ border-bottom:solid 1px gray; }
 .table_with_border_second	{ background-color:#white; border:1px solid; border-color: #CCCCCC #000000 #000000 #CCCCCC; }
 .table_with_border_light,

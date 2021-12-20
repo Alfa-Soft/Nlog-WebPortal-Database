@@ -1,0 +1,24 @@
+Changes
+
+include_header.html
+moved this to index.html.
+For NLog each project is an source. Not necassary that not logged in user see existing projects
+
+<!-- IF IS_LOGINPAGE!="true" -->
+		<!-- IF IS_ADMINPAGE!="true" -->
+		<form action="{CURRENTURL}" method="get" name="sourceidform">
+		<table width="450" border="0" cellspacing="0" cellpadding="0" class="with_border" align="right">
+		<tr> 
+			<td class="cellmenu1" width="250" nowrap><B>&nbsp;{LN_GEN_SELECTSOURCE}&nbsp;</B></td>
+			<td align="right">
+				<select name="sourceid" size="1" OnChange="document.sourceidform.submit();$('#loading_dialog').loading();" STYLE="width: 190px">
+					<!-- BEGIN Sources -->
+					<option {selected} value="{ID}">{Name}</option>
+					<!-- END Sources -->
+				</select>
+			</td>
+		</tr>
+		</table>
+		</form>
+		<!-- ENDIF IS_ADMINPAGE!="true" -->
+	<!-- ENDIF IS_LOGINPAGE!="true" -->

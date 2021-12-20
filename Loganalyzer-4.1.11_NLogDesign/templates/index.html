@@ -71,7 +71,14 @@
 		</form>
 		<!-- ENDIF ViewEnableAutoReloadSeconds_visible="true" -->
 
-	</td></tr></table>
+	</td>
+	<td style="padding-left:50px">
+	
+		<form method="POST" name="nlogform" id="nlogformDelete">
+			<input type="hidden" name="IDsToDel" id="IDsToDel" value="" />
+			<a href="javascript:SubmitDeleteRequest(nlogform, 'IDsToDel')">Remove selected items</a>
+		</form>
+	<td></tr></table>
 </div>
 
 
@@ -256,16 +263,19 @@
 		<!-- ENDIF FieldSortable="true" -->
 	</td>
 	<!-- END fields -->
+	
+	
+	<td class="cellmenu1"><input type="checkbox" style="width:20px"  onclick="RowClick_ToggleAll(this)"/></td>
 </tr>
 
 <!-- BEGIN syslogmessages -->
-<tr>
+<tr onmousedown="RowClick(this,false)">
 	<!-- IF MiscShowDebugGridCounter="1" -->
-	<td class="{cssclass} gridline">{ZAEHLER}</td>
+	<td class="{cssclass} gridline" bugId="{uid}">{ZAEHLER}</td>
 	<!-- ENDIF MiscShowDebugGridCounter="1" -->
 
 	<!-- BEGIN values -->
-	<td align="{FieldAlign}" class="{fieldcssclass} gridline" {fieldbgcolor} valign="top" {isnowrap}>
+	<td align="{FieldAlign}" class="{fieldcssclass} gridline" {fieldbgcolor} valign="top" {isnowrap}  bugId="{uid}">
 
 		<!-- IF hasbuttons="true" -->
 			<!-- IF hasdropdownbutton="true" -->
@@ -322,6 +332,8 @@
 
 	</td>
 	<!-- END values -->
+	
+	<td><input type="checkbox" class="SelectBugItem" style="width:20px" /></td>	
 
 </tr>
 <!-- END syslogmessages -->

@@ -55,7 +55,9 @@ InitFilterHelpers();	// Helpers for frontend filtering!
 
 // --- Define Extra Stylesheet!
 $content['EXTRA_STYLESHEET'] = '<link rel="stylesheet" href="css/highlight.css" type="text/css">' . "\r\n";
+$content['EXTRA_JAVASCRIPT'] = "<script type='text/javascript' src='" . $content['BASEPATH'] . "js/nlog.js'></script>";
 // --- 
+
 
 // --- CONTENT Vars
 if ( isset($_GET['uid']) ) 
@@ -202,6 +204,22 @@ if ( (isset($_POST['search']) || isset($_GET['search'])) || (isset($_POST['filte
 	}
 }
 // --- 
+
+
+// --- Remove selected items from database
+if ( isset($_POST['IDsToDel']) )
+{
+	$idsToDel  = explode(',', $_POST['IDsToDel']);
+	$tableName = $content['Sources'][$currentSourceID]['DBTableName'];
+
+	if(count($idsToDel) > 0 && isset($tableName))
+	{	
+		include($gl_root_path . 'include/functions_NLog.php');	
+		RemoveEventLogItems($tableName, $idsToDel);
+	}
+}
+// --- 
+
 
 // --- BEGIN CREATE TITLE
 $content['TITLE'] = InitPageTitle();
@@ -893,6 +911,7 @@ InitTemplateParser();
 $page -> parser($content, "index.html");
 $page -> output(); 
 // --- 
+
 
 // --- BEGIN Define Helper functions
 function HighLightString($highlightArray, $strmsg)
