@@ -65,6 +65,7 @@ a img		 { vertical-align:middle}
 
 /* Table Event Log */
 #PagerTop							{position:absolute;width:100%;height:15px;margin-top:-15px;text-align:right}
+#PagerTop	IMG						{vertical-align: top; padding-top: 1px;} /*27.10.2021 fix positon of pager buttons*/
 
 #fullcontenttable 					{FONT-WEIGHT:NORMAL !IMPORTANT;}
 #fullcontenttable .ui-button 		{font-size:1em !important;BACKGROUND:NONE !IMPORTANT; BACKGROUND-IMAGE:NONE !IMPORTANT; BORDER-STYLE:NONE; WHITE-SPACE:NORMAL !IMPORTANT; FONT-WEIGHT:NORMAL !IMPORTANT; TEXT-ALIGN:LEFT; }
