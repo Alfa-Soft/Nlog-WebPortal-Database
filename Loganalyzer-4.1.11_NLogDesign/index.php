@@ -206,17 +206,28 @@ if ( (isset($_POST['search']) || isset($_GET['search'])) || (isset($_POST['filte
 // --- 
 
 
-// --- Remove selected items from database
-if ( isset($_POST['IDsToDel']) )
-{
-	$idsToDel  = explode(',', $_POST['IDsToDel']);
-	$tableName = $content['Sources'][$currentSourceID]['DBTableName'];
+//echo $_POST['DeleteCmdDateStart'];
+//echo "<br>------------------------------";
 
-	if(count($idsToDel) > 0 && isset($tableName))
-	{	
-		include($gl_root_path . 'include/functions_NLog.php');	
-		RemoveEventLogItems($tableName, $idsToDel);
+// --- Remove selected items from database
+if ( isset($_POST['DeleteCmdDeleteIDs']) || isset($_POST['DeleteCmdDateStart']) || isset($_POST['DeleteCmdDateEnd']) )
+{
+	$tableName = $content['Sources'][$currentSourceID]['DBTableName'];
+	$idsToDel  = preg_split('@,@', $_POST['DeleteCmdDeleteIDs'], NULL, PREG_SPLIT_NO_EMPTY);
+	$dateBegin = DateTime::createFromFormat("d.m.y", $_POST['DeleteCmdDateStart']);
+	$dateEnd   = DateTime::createFromFormat("d.m.y", $_POST['DeleteCmdDateEnd']);
+	
+	include($gl_root_path . 'include/functions_NLog.php');	
+	
+	if(isset($tableName) && count($idsToDel) > 0)
+	{
+		RemoveEventLogItemsByIDs($tableName, $idsToDel);
+	}	
+	else if(isset($tableName) && isset($dateBegin) && isset($dateEnd) && $dateEnd > $dateBegin)
+	{
+		RemoveEventLogItemsByDate($tableName, $dateBegin, $dateEnd);
 	}
+	else{}
 }
 // --- 
 

@@ -72,12 +72,27 @@
 		<!-- ENDIF ViewEnableAutoReloadSeconds_visible="true" -->
 
 	</td>
-	<td style="padding-left:50px">
+	<td >
 	
-		<form method="POST" name="nlogform" id="nlogformDelete">
-			<input type="hidden" name="IDsToDel" id="IDsToDel" value="" />
-			<a href="javascript:SubmitDeleteRequest(nlogform, 'IDsToDel')">Remove selected items</a>
+		<form method="POST" name="nlogform" id="nlogformDelete">		
+			
+			<div style="float:left;padding-left:20px">				
+				<b>Delete selected items</b>
+				<br>
+				<input type="hidden" name="DeleteCmdDeleteIDs" id="DeleteCmdDeleteIDs" value="" />
+				<span id="DeleteCmdDeleteIdCount">0</span>&nbsp;items
+				<a href="javascript:SubmitRequestDeleteIDs(nlogform, 'DeleteCmdDeleteIDs')"><img src="images/icons/cross.png"/></a>
+			</div>			
+			<div style="float:left;padding-left:20px">
+				<b>Delete items in date-range</b>
+				<br>
+				<input type="text" name="DeleteCmdDateStart" id="DeleteCmdDateStart" style="width:60px" value="dd.MM.yy"/>
+				&nbsp;-&nbsp;
+				<input type="text" name="DeleteCmdDateEnd" id="DeleteCmdDateEnd" style="width:60px" value="dd.MM.yy" />	
+				<a href="javascript:nlogform.submit()"><img src="images/icons/cross.png"/></a>
+			</div>			
 		</form>
+		
 	<td></tr></table>
 </div>
 
@@ -265,11 +280,11 @@
 	<!-- END fields -->
 	
 	
-	<td class="cellmenu1"><input type="checkbox" style="width:20px"  onclick="RowClick_ToggleAll(this)"/></td>
+	<td class="cellmenu1"><input type="checkbox" style="width:20px"  onclick="tableEventLogRowSelector.ToggleAll(this)"/></td>
 </tr>
 
 <!-- BEGIN syslogmessages -->
-<tr onmousedown="RowClick(this,false)">
+<tr onmousedown="tableEventLogRowSelector.RowClick(this,false)">
 	<!-- IF MiscShowDebugGridCounter="1" -->
 	<td class="{cssclass} gridline" bugId="{uid}">{ZAEHLER}</td>
 	<!-- ENDIF MiscShowDebugGridCounter="1" -->
