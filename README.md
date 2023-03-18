@@ -21,13 +21,14 @@ Login Pass: demo3
 
 [Full install guide and description](http://nlogdemo.zytes.de/ "Full install guide")
 
+
 ## Filelist
 | | |
 | - | - |
-|  NLogWebservice |  PHP App) |
-|  NLogConfig_Template | *(Template of nlog.config to cosume webservice)* |
-|   Loganalyzer-4.1.11_NLogDesign |  *copy of [LogAnalyzer](https://github.com/rsyslog/loganalyzer "LogAnalyzer") with some design changes* |
-| NLogTargetTester   |  *small tool to test your setup* |
+|  [NLogWebservice](https://github.com/Alfa-Soft/Nlog-WebPortal-Database/releases/download/v1.0/NLogWebserviceV01.zip) |  PHP App) |
+|  [NLogConfig_Template](https://github.com/Alfa-Soft/Nlog-WebPortal-Database/blob/main/NLogWebservice/config.php) | *(Template of nlog.config to cosume webservice)* |
+| [Loganalyzer-4.1.11_NLogDesign]([https://github.com/Alfa-Soft/Nlog-WebPortal-Database/tree/main/Loganalyzer-4.1.11_NLogDesign)|  *copy of [LogAnalyzer](https://github.com/rsyslog/loganalyzer "LogAnalyzer") with some design changes* |
+| [NLogTargetTester](https://github.com/Alfa-Soft/Nlog-WebPortal-Database/releases/download/v1.0/NLogTargetTesterV01.zip)   |  *small tool to test your setup* |
 
 
 
