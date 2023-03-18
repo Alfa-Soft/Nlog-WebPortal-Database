@@ -27,8 +27,6 @@ Login Pass: demo3
 | - | - |
 |  [NLogWebservice](https://github.com/Alfa-Soft/Nlog-WebPortal-Database/releases/download/v1.0/NLogWebserviceV01.zip) |  PHP App) |
 |  [NLogConfig_Template](https://github.com/Alfa-Soft/Nlog-WebPortal-Database/blob/main/NLogWebservice/config.php) | *(Template of nlog.config to cosume webservice)* |
-| [Loganalyzer-4.1.11_NLogDesign]([https://github.com/Alfa-Soft/Nlog-WebPortal-Database/tree/main/Loganalyzer-4.1.11_NLogDesign)|  *copy of [LogAnalyzer](https://github.com/rsyslog/loganalyzer "LogAnalyzer") with some design changes* |
+| [Loganalyzer-4.1.11_NLogDesign](https://github.com/Alfa-Soft/Nlog-WebPortal-Database/tree/main/Loganalyzer-4.1.11_NLogDesign)|  *copy of [LogAnalyzer](https://github.com/rsyslog/loganalyzer "LogAnalyzer") with some design changes* |
 | [NLogTargetTester](https://github.com/Alfa-Soft/Nlog-WebPortal-Database/releases/download/v1.0/NLogTargetTesterV01.zip)   |  *small tool to test your setup* |
-
-
 
